@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEOJUEGOS</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+    <a href="#" class="logo">CHEF EN CASA<span>.</span></a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contacts</a>
+    </nav>
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+</header>
+ 
+<p class="formato">Ingrese su comentario en caso de asi desearlo</p>
+<p class="espacio-grande"></p>
+<form action="contact.php" method="post" class="formulario"> 
+    <div class="elem-group"> 
+        <label for="name">Comentario</label> 
+        <input type="text" id="comment" name="visitor_name" placeholder="Aqui ingrese su comentario" pattern="[A-Z\sa-z]{3,20}" required> 
+    </div>
+    
+    <button type="submit">Enviar comentario</button>
+</form>
+
+</body>
+</html>
